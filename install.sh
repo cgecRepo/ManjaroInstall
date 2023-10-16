@@ -1,6 +1,11 @@
 # Update database
 #sudo pacman -Syu
 
+# START ----------------------	YAY	--------------------------------------
+#sudo pacman -S yay
+
+# END ----------------------	YAY	--------------------------------------
+
 # Keyboard shortcuts configuration
 #cp ~/Documents/scripts/ManjaroInstall/customshortcuts/kglobalshortcutsrc ~/.config/
 
@@ -8,9 +13,12 @@
 
 # Tiling Window Manager
 
-# Github client and authentication
-# sudo pacman -S install github-cli
-# gh auth login
+# START ---------------------- 	Github and client for authentication	-----------------------------------------------
+#sudo pacman -S install github-cli
+#gh auth login
+# Allows file transfer
+#git config --global protocol.file.allow always
+# END ---------------------- 	Github and client for authentication	-----------------------------------------------
 
 # Julia
 
@@ -33,3 +41,12 @@
 # Vulkan: https://vulkan-tutorial.com/Development_environment#page_Linux
 
 # Minecraft: https://wiki.archlinux.org/title/minecraft
+#yay -S prismlauncher
+#sudo pacman -S jdk8-openjdk
+# El mod de reindev esta en la carpeta de minecraft
+
+
+# START ----------------------	OPENDROP	-----------------------------------------------------
+# permite enviar archivos atraves de airdrop
+#yay -S opendrop
+# END ----------------------	OPENDROP	-----------------------------------------------------
